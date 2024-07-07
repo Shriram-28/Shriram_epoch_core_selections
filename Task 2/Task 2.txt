@@ -1,0 +1,16 @@
+Task 2
+I tried using both the alphabet_images dataset and alphabet_28x28.csv 
+I could not perform task 2 as well as I could in task 1 cv and nn's were a little new to me so the models I made for classifying the Images didn't work well most of the architectures I tried either overfitted or underfitted I tried adding regularization to the models but it still overfit after different values.
+
+I was able to implement the naive bayes model pretty well which is present in the sentiment analysis ipynb file 
+It worked on 5 of 6 target images, I referred to stat quest youtube videos onNaive Bayes explained to understand the Naive aspect of it 
+I implemented Naive Bayes  after looking at some towardsdatascience and medium articles.
+
+I have submitted/added 3 parts of the task as different ipynb files 
+
+The first one was image segmentation where I split the target images into grids to extract the charecters and save it in files 
+The second one was the classification model
+The third one was the sentiment analysis file 
+
+Since my classification model failed I couldn't combine all these aspects into a refined notebook. 
+

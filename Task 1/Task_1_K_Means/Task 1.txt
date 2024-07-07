@@ -1,0 +1,18 @@
+Task 1
+Vizualization and Filtering
+I filtered all the data according to my home state and used latitude and longitude range to filter data within my state and used geopandas library to plot the state on the background.
+
+K-Means Implementation.
+I learned basics of the algorithm from the youtube.
+And later implemented it in the notebook.
+I implemented k-means as different functions in the notebooks that handles different steps in the k-means algorithm. 
+I later realised that I could have created a class for K_means and added the functions in it maybe I will implement that later.
+I implemented 3 plot functions that helped track the progress of the k-means Algorithm (tracks centroid movements in black lines after each iteration.) 
+I implemented elbow method to optimise cost.
+
+Choosing CLusters
+Initially I chaose 30 (Number of Districts) clusters and analyzed cluster results with state boundaries but the result was moderate at best
+Next I tried implementing elbow-method but the elbow point didn't make sense to me 
+Later I analyzed the latitude and longitude locations given and after searching I found out the dataset contained post office locations as the number of entries was close to the number of postoffices in my state. So I tried making clusters based on number of Head Offices In the dataset to try to ascertain the postoffices under each Head Office but I could not find any info on hierarchy of each post office in Karnataka so I couldn't verify my results 
+
+ 
